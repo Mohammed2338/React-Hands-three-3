@@ -1,0 +1,82 @@
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.innerBox {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  height: 220px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: linear-gradient(to top left, #198754, #ffc107, #fd7e14, #0dcaf0);
+}
+
+.innerBox label {
+  display: flex;
+  margin: 2px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+  justify-content: center;
+}
+.innerBox input {
+  width: 250px;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  height: 20px;
+  letter-spacing: 1px;
+}
+.innerBox button {
+  margin: 5px 0px;
+  padding: 2px 15px;
+  border: 1px solid black;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.dataBox1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid black;
+  width: 500px;
+
+  opacity: 1;
+  border-radius: 10px;
+}
+.dataBox1 p {
+  display: inline;
+
+  width: 200px;
+  border: 2px solid black;
+
+  background: linear-gradient(to top right, #cd6155, #9b59b6, #3498db);
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 5px;
+
+}
+
+.btn {
+  margin: 5px 0px;
+  padding: 2px 15px;
+  border: 1px solid black;
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+}
